@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b634ba6f-32a9-40bc-9e36-c01184d4c9bb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/day02_DriverMethodlari_Locators/C03_DriverNavigateMethodlari.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/day02_DriverMethodlari_Locators/C04_DriverManageMethodlari.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +44,7 @@
       <recent name="C:\Users\acer\com.Team120_Selenium\kurulumDosyalari" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.C03_DriverNavigateMethodlari">
+  <component name="RunManager" selected="Application.C04_DriverManageMethodlari">
     <configuration name="C01_DriverGetMethodlari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tests.day02_DriverMethodlari_Locators.C01_DriverGetMethodlari" />
       <module name="com.Team120_Selenium" />
@@ -64,19 +64,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Tests.day02_DriverMethodlari_Locators.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C02_seleniumWebDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tests.day01_DriverMethodlari.C02_seleniumWebDriver" />
-      <module name="com.Team120_Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.day01_DriverMethodlari.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,13 +97,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C04_DriverManageMethodlari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tests.day02_DriverMethodlari_Locators.C04_DriverManageMethodlari" />
+      <module name="com.Team120_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.day02_DriverMethodlari_Locators.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.C04_DriverManageMethodlari" />
         <item itemvalue="Application.C03_DriverNavigateMethodlari" />
         <item itemvalue="Application.C02_IlkOtomasyonTesti" />
         <item itemvalue="Application.C01_DriverGetMethodlari" />
         <item itemvalue="Application.C03_DriverObjesi" />
-        <item itemvalue="Application.C02_seleniumWebDriver" />
       </list>
     </recent_temporary>
   </component>
