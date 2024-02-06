@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b634ba6f-32a9-40bc-9e36-c01184d4c9bb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/day04_xPath_cssSelector/C01_Locators.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/day03_Locators/C04_LocatorsTagName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/day03_Locators/C04_LocatorsTagName.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +44,7 @@
       <recent name="C:\Users\acer\com.Team120_Selenium\kurulumDosyalari" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.C04_LocatorsTagName">
+  <component name="RunManager" selected="Application.C01_Locators">
     <configuration name="C01_IlkTestOtomasyonu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tests.day03_Locators.C01_IlkTestOtomasyonu" />
       <module name="com.Team120_Selenium" />
@@ -58,12 +58,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_ByClassNameLocator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tests.day03_Locators.C02_ByClassNameLocator" />
+    <configuration name="C01_Locators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tests.day04_xPath_cssSelector.C01_Locators" />
       <module name="com.Team120_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tests.day03_Locators.*" />
+          <option name="PATTERN" value="Tests.day04_xPath_cssSelector.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.C01_Locators" />
         <item itemvalue="Application.C04_LocatorsTagName" />
         <item itemvalue="Application.C03_LinkText_PartialLinkText" />
         <item itemvalue="Application.C03_DriverNavigateMethodlari" />
         <item itemvalue="Application.C01_IlkTestOtomasyonu" />
-        <item itemvalue="Application.C02_ByClassNameLocator" />
       </list>
     </recent_temporary>
   </component>
