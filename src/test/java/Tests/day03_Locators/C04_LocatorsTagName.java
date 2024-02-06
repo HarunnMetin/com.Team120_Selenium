@@ -33,7 +33,12 @@ public class C04_LocatorsTagName {
         //4- Products linkine tiklayin
         driver.findElement(By.partialLinkText("Products")).sendKeys(Keys.ENTER);
         //5- special offer yazisinin gorundugunu test edin
-        //driver.findElement(By.linkText("special offer")).isDisplayed();
+        if (driver.findElement(By.id("sale_image")).isDisplayed()){
+            System.out.println("yazi gorunuyor");
+        }
+        else {
+            System.out.println("yazi gorunmuyor");
+        }
         //6- Sayfayi kapatin
         Thread.sleep(3000);
         driver.close();
