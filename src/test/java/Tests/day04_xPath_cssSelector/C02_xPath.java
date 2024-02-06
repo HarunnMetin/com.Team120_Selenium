@@ -10,7 +10,7 @@ import java.time.Duration;
 
 public class C02_xPath {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         System.setProperty("webdriver.chrome.driver","C:\\Users\\acer\\com.Team120_Selenium\\kurulumDosyalari\\chromedriver-win64 (1)\\chromedriver-win64\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
@@ -32,6 +32,7 @@ public class C02_xPath {
             System.out.println("DELETE tusu gorunmuyor");
             System.out.println("test FAİLED");
         }
+        Thread.sleep(3000);
         //4- Delete tusuna basin
         deleteButonu.sendKeys(Keys.ENTER);
         //5- “Add/Remove Elements” yazisinin gorunur oldugunu test edin
@@ -44,7 +45,8 @@ public class C02_xPath {
             System.out.println("yazi gorunmuyor");
             System.out.println("test FAİLED");
         }
-
+        Thread.sleep(3000);
+        driver.close();
 
     }
 }
